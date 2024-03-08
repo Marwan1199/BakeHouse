@@ -12,7 +12,7 @@ pipeline {
         
         stage('List Files') {
             steps {
-                sh 'ls -l'
+                sh 'ls'
             }
         }
     }
